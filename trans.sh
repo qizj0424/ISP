@@ -1,4 +1,14 @@
 #!/bin/sh
-make clean && make S=gc2053-t21
-cp gc2053-t21.bin ~/nfsroot/root-uclibc-t21/system/etc/sensor -vf
-md5sum gc2053-t21.bin
+SENSOR="jxh62-t21"
+
+if mountpoint -q ~/nfswork/mnt
+then
+    echo "mounted"
+else
+    echo "not mounted"
+    mount -o nolock -t nfs 193.169.4.2:/home_b/nfsroot/zjqi ~/nfswork/mnt
+fi
+
+make clean && make S=${SENSOR}
+cp ${SENSOR}.bin ~/nfswork/mnt/ -vf                                                                                                   
+md5sum ${SENSOR}.bin
