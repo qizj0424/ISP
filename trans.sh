@@ -1,5 +1,7 @@
 #!/bin/sh
+####Select the sensor####
 SENSOR="jxf37-t21"
+#####NFS OR TFTP##Choose the upload method#
 TOOL="NFS"
 NFS_MY_PATH=/home/book/nfswork/mnt
 NFS_WORK_PATH=/home/zjqi/net/nfsroot
