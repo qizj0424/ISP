@@ -1,6 +1,6 @@
 #include "tiziano_params.h"
 tisp_params_t tparams_night = {
-TISP_PARAM_DEF(tparams_night, TISP_PARAM_TOP_BYPASS) = {{0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0}},
+TISP_PARAM_DEF(tparams_night, TISP_PARAM_TOP_BYPASS) = {{0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0}},
 TISP_PARAM_DEF(tparams_night, TISP_PARAM_AE_PARAMETER) = {{1, 15, 1, 15, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 64, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 36, 30, 230, 1, 1}},
 TISP_PARAM_DEF(tparams_night, TISP_PARAM_AE_SWITCH_NIGHT_MODE) = {{0, 0, 23250, 15000}},
 TISP_PARAM_DEF(tparams_night, TISP_PARAM_AE_POINTPOS) = {{10, 1024}},
@@ -200,7 +200,7 @@ TISP_PARAM_DEF(tparams_night, TISP_PARAM_SDNS_Y_FUS_NPV_ARRAY) = {{0, 0, 0, 0, 0
 TISP_PARAM_DEF(tparams_night, TISP_PARAM_SDNS_Y_LUM_NPV_ARRAY) = {{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}},
 TISP_PARAM_DEF(tparams_night, TISP_PARAM_SDNS_Y_DSP_NPV_ARRAY) = {{0, 0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 32, 28, 24, 20, 0}},
 TISP_PARAM_DEF(tparams_night, TISP_PARAM_SDNS_Y_BSP_NPV_ARRAY) = {{0, 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 16, 14, 12, 10, 0}},
-TISP_PARAM_DEF(tparams_night, TISP_PARAM_SDNS_Y_BIL_STREN_ARRAY) = {{0, 0, 0, 2, 2, 2, 0, 0, 0}},
+TISP_PARAM_DEF(tparams_night, TISP_PARAM_SDNS_Y_BIL_STREN_ARRAY) = {{0, 0, 0, 2, 5, 8, 10, 15, 20}},
 TISP_PARAM_DEF(tparams_night, TISP_PARAM_SDNS_Y_BIL_NPV_ARRAY) = {{1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}},
 TISP_PARAM_DEF(tparams_night, TISP_PARAM_SDNS_C_BAS_WEI_ARRAY) = {{0, 0, 0, 0, 0, 0, 0, 0, 0}},
 TISP_PARAM_DEF(tparams_night, TISP_PARAM_SDNS_C_FUS_MOD_ARRAY) = {{0, 0, 0, 0, 0, 0, 0, 0, 0}},
