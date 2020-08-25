@@ -1,8 +1,8 @@
 #!/bin/sh
 ####Select the sensor####
-SENSOR="jxf63-t21"
+SENSOR="jxh63-t21"
 #####NFS OR TFTP##Choose the upload method#
-TOOL="NFS"
+TOOL="TFTP"
 NFS_MY_PATH=/home/zjqi/nfsroot/mnt
 NFS_WORK_PATH=/home/zjqi/net/nfsroot
 TFTP_MY_PATH=/home/zjqi/tftproot/
