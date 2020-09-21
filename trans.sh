@@ -1,6 +1,6 @@
 #!/bin/sh
 ####Select the sensor####
-SENSOR="jxf63-t21"
+SENSOR="gc2053-t21"
 #####NFS OR TFTP##Choose the upload method#
 TOOL="NFS"
 NFS_MY_PATH=/home/zjqi/nfsroot/mnt
@@ -29,7 +29,7 @@ if [ ${TOOL} = "NFS" ];then
             mount -o nolock -t nfs 193.169.4.2:/home_b/nfsroot/zjqi ${NFS_WORK_PATH}/
         fi
 
-        cp ${SENSOR}.bin ${NFS_WORK_PATH}/ -vf                                                                                                   
+    cp ${SENSOR}.bin ${NFS_WORK_PATH}/ -vf                                                                                                   
     fi
 
 elif [ ${TOOL} = "TFTP" ];then
